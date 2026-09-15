@@ -15,3 +15,36 @@
 See [`docs/architecture.md`](docs/architecture.md) for the full design.
 
 ---
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── NAMING.md
+├── SECURITY.md
+├── docs/
+│   ├── architecture.md
+│   ├── hosts/
+│   ├── network/
+│   ├── services/
+│   ├── runbooks/
+│   └── decisions/
+├── inventory/
+│   └── hosts.md
+└── config-examples/
+```
+
+---
+
+## Quick Links
+
+- [Architecture](docs/architecture.md)
+- [Naming Standard](NAMING.md)
+- [Host Inventory](inventory/hosts.md)
+- [Network Overview](docs/network/README.md)
+- [Services](docs/services/README.md)
+- [Runbooks](docs/runbooks/README.md)
+- [Security Policy](SECURITY.md)
