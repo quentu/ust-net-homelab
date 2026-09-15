@@ -12,7 +12,7 @@
 | `ust-sentinel-01` | Lab / Compute | VLAN 30 | Proxmox node |
 | `ust-sentinel-02` | Lab / Compute | VLAN 30 | Proxmox node |
 
-See [`docs/architecture.md`](docs/architecture.md) for the full design.
+See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the full design.
 
 ---
 
@@ -26,7 +26,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the full design.
 ├── NAMING.md
 ├── SECURITY.md
 ├── docs/
-│   ├── architecture.md
+│   ├── architecture/
 │   ├── hosts/
 │   ├── network/
 │   ├── services/
@@ -35,6 +35,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the full design.
 ├── inventory/
 │   └── hosts.md
 └── config-examples/
+    ├── docker/
 ```
 
 ---
