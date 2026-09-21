@@ -1,6 +1,6 @@
 
 ## UST-NET
-This is my public-facing, sanitized homelab documentation. This repository documents my architecture, project progress, technical decisions, and evolving understanding of core concepts in a clear and approachable way.
+This is my public-facing, sanitized homelab documentation. This repository documents my architecture, project progress, technical decisions, and evolving understanding of core concepts in a clear and approachable way. Currently still in work in progress, I've gone through huge migration and infrastructure changes which still need time to be reflected here. Thanks for stopping by friend :)
 
 <p align="left">
   <img src="assets/img_01_full_rack.png" alt="Homelab rack" width="300">
