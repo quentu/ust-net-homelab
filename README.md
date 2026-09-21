@@ -1,6 +1,10 @@
-# ust-net-homelab
 
----
+## UST-NET
+This is my public-facing, sanitized homelab documentation. This repository documents my architecture, project progress, technical decisions, and evolving understanding of core concepts in a clear and approachable way.
+
+<p align="left">
+  <img src="assets/img_01_full_rack.png" alt="Homelab rack" width="300">
+</p>
 
 ## Infrastructure Overview
 
@@ -22,9 +26,7 @@ See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the ful
 .
 ├── README.md
 ├── CHANGELOG.md
-├── CONTRIBUTING.md
 ├── NAMING.md
-├── SECURITY.md
 ├── docs/
 │   ├── architecture/
 │   ├── hosts/
@@ -32,8 +34,6 @@ See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the ful
 │   ├── services/
 │   ├── runbooks/
 │   └── decisions/
-├── inventory/
-│   └── hosts.md
 └── config-examples/
     ├── docker/
 ```
@@ -42,10 +42,6 @@ See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the ful
 
 ## Quick Links
 
-- [Architecture](docs/architecture.md)
+- [Architecture](docs/architecture/overview.md)
+- [Network Overview](docs/network/topology.md)
 - [Naming Standard](NAMING.md)
-- [Host Inventory](inventory/hosts.md)
-- [Network Overview](docs/network/README.md)
-- [Services](docs/services/README.md)
-- [Runbooks](docs/runbooks/README.md)
-- [Security Policy](SECURITY.md)
