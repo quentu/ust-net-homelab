@@ -12,19 +12,55 @@
 
 ```text
 /nexus/
-├── immich/
-│   ├── db/
-│   └── uploads/
-├── jellyfin/
-└── media/
+│
+├── appdata/                 # Persistent service data
+│   ├── immich/
+│   ├── jellyfin/
+│   └── ...
+│
+├── media/                   # Movies/music/books/etc.
+│   ├── movies/
+│   ├── tv/
+│   ├── music/
+│   └── books/
+│
+├── users/                   # Personal long-term files
+│   └── quentu/
+│       ├── documents/
+│       ├── photos/
+│       ├── school/
+│       ├── career/
+│       └── inbox/
+│
+├── software/                # software and installers archive for quick deployment
+│   ├── appimages/
+|   └── installers/
+│
+├── images/                  # System/virtualization images
+│   ├── iso/
+│   ├── vm/
+│   ├── containers/
+│   └── firmware/
+│
+├── archive/                 # Intentionally retained old data
+│
+├── backups/                 # Recoverable copies
+│   ├── hosts/
+│   ├── databases/
+│   └── configs/
+│
+└── scratch/                 # Disposable
+    ├── downloads/
+    ├── staging/
+    └── tmp/
 ```
 
 
 | Name | Mount Point | Used By |
 | --- | --- | --- |
-| `nexus/immich/db` | `/nexus/immich/db` | Immich (Database) |
-| `nexus/immich/uploads` | `/nexus/immich/uploads` | Immich (Personal Photo Storage) |
-| `nexus/jellyfin` | `/nexus/jellyfin` | Jellyfin (Metadata, Cache, Config)|
-| `nexus/media` | `/nexus/media` | Jellyfin (Music & Video)|
+| `nexus/appdata/immich/db` | `/nexus/appdata/immich/db` | Immich (Database) |
+| `nexus/appdata/immich/uploads` | `/nexus/appdata/immich/uploads` | Immich (Personal Photo Storage) |
+| `nexus/appdata/jellyfin` | `/nexus/appdata/jellyfin` | Jellyfin (Metadata, Cache, Config)|
+| `nexus/media` | `/nexus/media` | (Music, Video, Books)|
 
 
