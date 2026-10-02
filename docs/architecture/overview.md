@@ -9,7 +9,7 @@ UST-NET separates management, production, backup, and lab workloads so each envi
 | `ust-overseer` | DNS, reverse proxy, Tailscale, Prometheus, Grafana, and management tools |
 | `ust-axiom` | Production containers, ZFS storage, media services, and AI workloads |
 | `ust-vault` | Backup storage and recovery for critical data |
-| `ust-sentinel-01/02` | Proxmox compute cluster for virtual machines and containers |
+| `ust-sentinel-01/02/03` | Proxmox compute cluster for virtual machines and containers |
 
 ## Service Flow
 
