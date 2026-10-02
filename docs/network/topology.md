@@ -11,7 +11,7 @@ flowchart TD
     Switch --> Lab["VLAN 30 · Lab"]
     Mgmt --> Overseer["ust-overseer"]
     Prod --> Axiom["ust-axiom"]
-    Lab --> Sentinel["ust-sentinel-01/02"]
+    Lab --> Sentinel["ust-sentinel-01/02/03"]
     Remote["Tailscale / LAN Clients"] <-.-> Overseer
 ```
 
@@ -31,4 +31,5 @@ flowchart TD
 | `ust-axiom` | `192.168.20.108` |
 | `ust-sentinel-01` | `192.168.30.100` |
 | `ust-sentinel-02` | `192.168.30.101` |
+| `ust-sentinel-03` | `192.168.30.102` |
 
