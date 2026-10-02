@@ -2,7 +2,7 @@
 
 ## Overview
 
-`ust-sentinel-01` is the second Proxmox node in the Sentinel compute cluster.
+`ust-sentinel-02` is the second Proxmox node in the Sentinel compute cluster.
 
 | Property | Value |
 | --- | --- |
