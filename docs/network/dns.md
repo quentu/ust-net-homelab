@@ -10,6 +10,7 @@ Internal services use the `intra.quentu.dev` zone. Technitium DNS on `ust-overse
 | `ust-axiom.intra.quentu.dev` | A | `192.168.20.108` |
 | `ust-sentinel-01.intra.quentu.dev` | A | `192.168.30.100` |
 | `ust-sentinel-02.intra.quentu.dev` | A | `192.168.30.101` |
+| `ust-sentinel-03.intra.quentu.dev` | A | `192.168.30.102` |
 
 ## Service Records
 
