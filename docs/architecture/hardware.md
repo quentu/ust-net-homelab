@@ -7,8 +7,10 @@
 | `ust-overseer` | NUC5i3MYBE | Intel Core i3-5010U  | 8GB DDR3 | 128GB M.2 SSD |
 | `ust-axiom` | Custom built | Intel Core i5-9400F | 16 GB DDR4| 4TB ZFS pool |
 | `ust-vault` | Mac mini 2012| Intel Core i5-3210M  | 4GB DDR3 | 1TB SATA SSD |
-| `ust-sentinel-01` | HP Z210 | Intel Core i7-2600 | 16 GB DDR3 | 1TB SATA SSD |
-| `ust-sentinel-02` | HP Z210 | Intel Core i7-2600 | 16 GB DDR3 | 1TB SATA SSD |
+| `ust-sentinel-01` | Lenovo ThinkCentre M75Q Gen 1 | Ryzen 5 3400GE | 16 GB DDR4 | 1TB SATA SSD |
+| `ust-sentinel-02` | Lenovo ThinkCentre M75Q Gen 1 | Ryzen 5 3400GE | 16 GB DDR4 | 1TB SATA SSD |
+| `ust-sentinel-03` | Lenovo ThinkCentre M75Q Gen 1 | Ryzen 5 3400GE | 16 GB DDR4 | 1TB SATA SSD |
+
 ## Accelerators
 
 `ust-axiom` uses an NVIDIA Tesla P40 (24GB VRAM) for local AI inference.
