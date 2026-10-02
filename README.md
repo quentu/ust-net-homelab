@@ -15,6 +15,7 @@ This is my public-facing, sanitized homelab documentation. This repository docum
 | `ust-vault` | Backup | TBD | Backup server |
 | `ust-sentinel-01` | Lab / Compute | VLAN 30 | Proxmox node |
 | `ust-sentinel-02` | Lab / Compute | VLAN 30 | Proxmox node |
+| `ust-sentinel-03` | Lab / Compute | VLAN 30 | Proxmox node |
 
 See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the full design.
 
