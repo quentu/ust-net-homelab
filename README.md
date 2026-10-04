@@ -6,6 +6,8 @@ This is my public-facing, sanitized homelab documentation. This repository docum
   <img src="assets/img_01_full_rack.jpg" alt="Homelab rack" width="300">
 </p>
 
+## Quick Links
+- [Documentation Browser](BROWSER.md)
 ## Infrastructure Overview
 
 | Host | Role | VLAN | Primary Purpose |
@@ -39,10 +41,3 @@ See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the ful
     ├── docker/
 ```
 
----
-
-## Quick Links
-
-- [Architecture](docs/architecture/overview.md)
-- [Network Overview](docs/network/topology.md)
-- [Naming Standard](NAMING.md)
