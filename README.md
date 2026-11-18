@@ -15,9 +15,9 @@ This is my public-facing, sanitized homelab documentation. This repository docum
 | `ust-overseer` | Management | VLAN 1 | Tailscale, management services, reverse proxy |
 | `ust-axiom` | Production | VLAN 20 | NAS, Docker Services, Media, AI workloads |
 | `ust-vault` | Backup | TBD | Backup server |
-| `ust-sentinel-01` | Lab / Compute | VLAN 30 | Proxmox node |
-| `ust-sentinel-02` | Lab / Compute | VLAN 30 | Proxmox node |
-| `ust-sentinel-03` | Lab / Compute | VLAN 30 | Proxmox node |
+| `ust-sentinel-01` | Lab / Compute | VLAN 30 | Proxmox node, Kubernetes |
+| `ust-sentinel-02` | Lab / Compute | VLAN 30 | Proxmox node, Kubernetes |
+| `ust-sentinel-03` | Lab / Compute | VLAN 30 | Proxmox node, Kubernetes |
 
 See [`docs/architecture/overview.md`](docs/architecture/overview.md) for the full design.
 
